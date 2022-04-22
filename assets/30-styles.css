@@ -1,0 +1,79 @@
+.main {
+    padding-top: 4.0rem;
+    padding-bottom: 1.5rem;
+}
+
+input[type="radio"]{
+    margin: 0px 5px 0px 5px;
+}
+
+@media (max-width: 575.98px) {
+    .main {
+        padding-bottom: 5rem;
+    }
+}
+
+.text-cases {
+    color: var(--cases) !important;
+}
+
+:root {
+    --cases-total: #636EFA;
+    --cases-active: #19D3F3;
+    --cases-critical: #FFA15A;
+    --cases-deceased: #EF553B;
+    --cases-recovered: #00CC96;
+}
+
+.border-left-cases-total {
+    border-left: 0.25rem solid var(--cases-total) !important;
+}
+
+.border-left-cases-active {
+    border-left: 0.25rem solid var(--cases-active) !important;
+}
+
+.border-left-cases-critical {
+    border-left: 0.25rem solid var(--cases-critical) !important;
+}
+
+.border-left-cases-deceased {
+    border-left: 0.25rem solid var(--cases-deceased) !important;
+}
+
+.border-left-cases-recovered {
+    border-left: 0.25rem solid var(--cases-recovered) !important;
+}
+
+.text-cases-total {
+    color:var(--cases-total) !important;
+}
+
+.text-cases-active {
+    color: var(--cases-active) !important;
+}
+
+.text-cases-critical {
+    color: var(--cases-critical) !important;
+}
+
+.text-cases-deceased {
+    color: var(--cases-deceased) !important;
+}
+
+.text-cases-recovered {
+    color: var(--cases-recovered) !important;
+}
+
+.badge-cases-critical {
+    color: #fff;
+    background-color: var(--cases-critical);
+}
+
+.badge-counter {
+    position: absolute;
+    transform: scale(0.7);
+    transform-origin: top right;
+    /* right: .25rem; */
+    margin-top: -.25rem;
+}

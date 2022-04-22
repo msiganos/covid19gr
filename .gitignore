@@ -1,0 +1,15 @@
+# Python
+*.pyc
+
+# VSCode
+.vscode
+
+# App
+data/*
+!data/.gitkeep
+cache-directory/
+
+# Notebooks
+notebooks/.ipynb_checkpoints
+notebooks/data/*
+!notebooks/data/.gitkeep
